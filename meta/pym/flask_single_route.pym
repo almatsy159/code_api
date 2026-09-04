@@ -1,0 +1,16 @@
+## 1_route : string : route
+## 2_methods : list : methods available
+## 3_args : string : args present in route
+
+from flask import Flask
+
+app = Flask()
+
+
+@app.route(1_route ,methods=2_methods )
+def route1(3_args ):
+    $1_flask_trt
+
+
+if __name__=="__main__":
+    app.run()

@@ -1,0 +1,8 @@
+prog/**
+olds
+dirs
+mds/**
+data/**
+**/__pycache__
+idea_syr
+tmp/**

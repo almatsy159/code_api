@@ -1,0 +1,7 @@
+## 1_fname : string : name of the function
+## 2_fargs : list : args of the functions
+
+
+def 1_fname (2_fargs ):
+
+    $1_ftrt

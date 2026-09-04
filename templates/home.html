@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="test_component">my_div</div>
+    {% if data %}
+
+    <table>
+        <thead>
+           
+        </thead>
+        <tbody>
+            {% for i,j in data['progs'].items() %}
+            <tr>
+                <td>{{i}}</td>
+                <td>{{j["pl"]}}</td>
+                {% if j['doc_available'] %}
+                    <td><a href="./md/{{j['pl']}}/{{j['name']}}.md">Doc here</a></td>
+                {% else %}
+                    <td><a href="">No doc</a></td>
+                {% endif %}
+                <td><a href="./prog/{{j['pl']}}/{{i}}">content</a></td>
+            </tr>
+        {% endfor %}
+        </table>
+    {% endif %}
+</body>
+</html>

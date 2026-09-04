@@ -1,0 +1,5 @@
+## 0_fi : iterable : increment in
+## 1_ft : function : treatment
+for i in 0_fi :
+    1_ft 
+    $1_ft

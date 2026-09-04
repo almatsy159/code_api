@@ -1,0 +1,6 @@
+## 1_url : string : address
+## 2_payload : dict : payload to send
+
+import requests
+
+request.post(1_url ,json=2_json )

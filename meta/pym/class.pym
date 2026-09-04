@@ -1,0 +1,5 @@
+## 1_cname : string : name of the class
+## 2_cparent : string : parent name
+
+class 1_cnamme (2_cparent):
+    $1_ctrt

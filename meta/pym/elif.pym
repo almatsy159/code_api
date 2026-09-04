@@ -1,0 +1,8 @@
+## 9_le : number : condition_part1
+## 10_op2 : string : operator
+## 11_re : number : condition_part2
+## 12_elift : function : treatment 
+## $1_elift : treatment
+if 9_o3 10_op2 11_o4 :
+    12_elift 
+    #$1_elift

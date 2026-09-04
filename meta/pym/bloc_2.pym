@@ -1,0 +1,20 @@
+## 2_li : number : condition_part1
+## 3_op : string : operator
+## 4_ri : number : condition_part2
+## 5_ift : function : treatment
+if 2_li 3_op 4_ri :
+    ## 7_var : string : variable
+
+
+    ## 8_val : any : value
+    7_var = 8_val 
+## 2_li : number : condition_part1
+## 3_op : string : operator
+## 4_ri : number : condition_part2
+## 5_ift : function : treatment
+if 2_li 3_op 4_ri :
+    ## 7_var : string : variable
+
+
+    ## 8_val : any : value
+    7_var = 8_val 

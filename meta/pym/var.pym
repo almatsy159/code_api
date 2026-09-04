@@ -1,0 +1,3 @@
+## 7_var : string : variable
+## 8_val : any : value
+7_var = 8_val 

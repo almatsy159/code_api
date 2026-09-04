@@ -1,0 +1,7 @@
+## 1_prop : string : propertie name
+
+1_prop {
+
+    $1_cpl_attr_val
+
+}
