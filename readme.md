@@ -9,12 +9,17 @@ need to run that script at code_api dir level
 
 get via curl then post via python3 allow to write a script into the api by editing the code (or giving the name of the code as argument)
 
-### get /code/<ext>/<file.ext> 
+### get /code/ext/file.ext
+
+note : should remove .ext
+
+ext example : py , css ...
+file is the filename
 
 useful example (get the post.py script) :
 curl http://localhost:3000/code/py/post.py/raw >> post.py
 
-### post /code/<ext>/<file>
+### post /code/ext/file
 
 python3 post.py <filename>
 
