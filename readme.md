@@ -50,7 +50,7 @@ the whole directory is then stored as a single file into the api.
 
 ## notes
 
-also the doc with the cli is complementary to the one that should be there....
+doc of the client : [cli readme](code_cli_api/readme.md)
 
 space bug re sub(##, "",...) => does not include /n ??!
 
